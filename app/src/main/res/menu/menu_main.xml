@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+      <item android:id="@+id/action_user_profile"
+            android:title="Profile"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+          />
+      <item android:id="@+id/update_online"
+            android:title="Update Online"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+          />
+
+      <item android:id="@+id/visual_summary"
+          android:title="Graph Summary"
+          android:orderInCategory="3"
+          app:showAsAction="never"
+          />
+
+
+
+</menu>
